@@ -4,8 +4,8 @@ class GymMember:
     def __init__(self, name: str, age: int, weight: float, height: float):
         self.name = name
         self.age = age
-        self.weight = weight  # in kilograms
-        self.height = height  # in meters
+        self.weight = weight
+        self.height = height
 
 class GymManagementSystem:
     def __init__(self):
